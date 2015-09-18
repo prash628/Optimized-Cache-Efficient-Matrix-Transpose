@@ -1,0 +1,62 @@
+
+q
+/*
+ * Name: Prashant Srinivasan
+ * Andrew ID: psriniv1
+*/
+#include "cachelab.h"
+#include <stdlib.h>
+#include <unistd.h>
+#include <getopt.h>
+#include <stdio.h>
+
+
+int main(int argc, char** argv)
+{
+
+  char inputArg;
+  int option;
+  int optionValue;
+  int s;             // Set Index
+  int E;             // Associativity or cache lines
+  int b;             // The block offset bits
+  char *fileName;    // Trace File
+
+  filePtr = NULL;
+  /* Looping over arguments
+ * Reference: Recitation 05
+ */
+
+ while(-1!=())
+ while(-1 != (inputArg = getopt(argc, argv, option:optionValue:"))){
+   /* Determine which argument it is processing */
+   switch(opt) {
+     case 's':
+       s=atoi(optarg);
+       break;
+     case 'E':
+        E=atoi(optarg);
+        break;
+     case 'b':
+        b=atoi(optarg);
+        break;
+     case 't':
+        fileName=optarg;
+        break;
+     case 'v':
+        //Verbosity is on
+        break;
+     default:
+        printf("\n Wrong Argument");
+   }
+ } // End of while
+ printf("\n s: %d",s);
+ printf("\n E: %d",s);
+ printf("\n b: %d",s);
+ printf("\n t: %s",fileName);
+
+ return(0);
+
+
+}
+

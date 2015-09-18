@@ -1,0 +1,19 @@
+ 
+
+
+******
+Files:
+******
+
+trans.c	      Contains the matrix transpose function for 			            different matrix size
+
+# Tools for evaluating the transpose function
+Makefile		Builds the simulator and tools
+README		This file
+cachelab.c		Required helper functions
+cachelab.h		Required header file
+csim-ref*		The executable reference cache simulator
+driver.py*		The cache lab driver program, runs test-csim and test-trans
+test-trans.c	Tests the transpose function
+tracegen.c		Helper program used by test-trans
+traces/		Trace files used by test-csim.c
